@@ -20,5 +20,6 @@ function currentLine(line) {
       newLine += (i + 1) + '. ' + line[i] + ', '
     }
     newLine = newLine.slice(0, newLine.length - 2)
+    return 'The line is currently: ' + newLine
   }
 }
